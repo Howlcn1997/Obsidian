@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "images/Pasted image 20231007165821.png.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "images/Pasted image 20231007165821.png.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "images/Pasted image 20231007165821.png.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "images/Pasted image 20231007165821.png.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "44de2fbc0e8645eb",
   "lastOpenFiles": [
-    "images/Pasted image 20231007165821.png",
     "README.md",
+    "images/Pasted image 20231007165821.png.md",
+    "images/Pasted image 20231007165821.png",
     "images/Snipaste_2023-10-07_16-55-25.png",
     "Snipaste_2023-10-07_16-51-42.png",
     "images/Pasted image 20231007164632.png",
