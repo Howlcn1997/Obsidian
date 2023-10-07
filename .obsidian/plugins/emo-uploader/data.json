@@ -3,7 +3,7 @@
   "github_parms": {
     "required": {
       "owner": "Howl",
-      "repo": "",
+      "repo": "git@github.com:Howlcn1997/Obsidian.git",
       "branch": "main",
       "token": "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",
       "message": "from emo-uploader·Github"
