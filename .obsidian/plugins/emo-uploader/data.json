@@ -2,7 +2,7 @@
   "choice": "Github",
   "github_parms": {
     "required": {
-      "owner": "Howl",
+      "owner": "Howlcn1997",
       "repo": "git@github.com:Howlcn1997/Obsidian.git",
       "branch": "master",
       "token": "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",

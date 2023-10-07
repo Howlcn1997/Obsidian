@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "().md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "().md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "().md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "().md"
+                "file": "README.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "a83efad69dabe3f9",
   "lastOpenFiles": [
-    "README.md",
     "().md",
+    "README.md",
     "images/Pasted image 20231007165821.png.md",
     "images/Pasted image 20231007165821.png",
     "images/Snipaste_2023-10-07_16-55-25.png",
