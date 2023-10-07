@@ -1,3 +1,3 @@
 # Obsidian
 阿三大苏打实打实
-![[images/Pasted image 20231007165821.png]]
+![https://github.com/Howlcn1997/Obsidian/blob/master/images/Pasted%20image%2020231007165821.png?raw=true]()
