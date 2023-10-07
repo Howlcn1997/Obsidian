@@ -4,7 +4,7 @@
     "required": {
       "owner": "Howl",
       "repo": "git@github.com:Howlcn1997/Obsidian.git",
-      "branch": "main",
+      "branch": "master",
       "token": "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",
       "message": "from emo-uploader·Github"
     },
