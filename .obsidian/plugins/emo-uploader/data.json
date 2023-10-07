@@ -8,7 +8,7 @@
       "token": "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",
       "message": "from emo-uploader·Github"
     },
-    "path": "images",
+    "path": "images/",
     "random": true,
     "cdn": "raw"
   },
