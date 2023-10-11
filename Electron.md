@@ -22,7 +22,7 @@
 - Node v14.17.0.
     - [v14.17.0 release notes](https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V14.md#14.17.0)
 - V8
-    - [v9.3 blog post](https://v8.dev/blog/v8-release-93)
+    - [v9.3 blog post](https://v8.dev/blog/v8-release-93)  JS的编译速度提升44%
     - [v9.2 blog post](https://v8.dev/blog/v8-release-92)
 
 ## 重大变化
