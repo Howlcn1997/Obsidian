@@ -1,5 +1,6 @@
 # 12.x
-## 
+## 重大变化
+
 - 将默认值`crashReporter.start({ compress })`从更改`false`为`true`。[#25288](https://github.com/electron/electron/pull/25288)
 - 将默认值更改`contextIsolation`为`true`。[#27949](https://github.com/electron/electron/pull/27949)
 - 将默认值更改`worldSafeExecuteJavaScript`为`true`。[#27502](https://github.com/electron/electron/pull/27502)
