@@ -12,3 +12,11 @@
 
 - 修复了 window.open() 参数_frameName_不再设置为窗口标题的问题。[#27481](https://github.com/electron/electron/pull/27481)
 - 更改`session.setPermissionCheckHandler(handler)`为允许 的`handler`第一个参数`webContents`为`null`。[第19903章](https://github.com/electron/electron/pull/19903)
+
+# 14.x
+## 重大变化
+
+- 子窗口不再从其父窗口继承 BrowserWindow 构造选项。[#28550](https://github.com/electron/electron/pull/28550)
+- 已弃用的`worldSafeExecuteJavaScript`选项已从 中删除`webPreferences`。[#28456](https://github.com/electron/electron/pull/28456)
+- 从WebContents 事件中删除了已弃用的`additionalFeatures`属性。[#28548](https://github.com/electron/electron/pull/28548)`new-window``did-create-window`[](https://github.com/electron/electron/pull/28548)
+- 删除了已弃用的选项`app.allowRendererProcessReuse`和 BrowserWindow`affinity`选项。[#26874](https://github.com/electron/electron/pull/26874)
