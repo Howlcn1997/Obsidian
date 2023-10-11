@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Electron.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Electron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Electron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Electron.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "a165b603d20ea106",
   "lastOpenFiles": [
+    "images/1696674106000ldkvqi.png",
+    "images/1696674028000rujrwt.png",
     "().md",
-    "README.md",
+    "Electron.md",
     "images/Pasted image 20231007165821.png.md",
     "images/Pasted image 20231007165821.png",
     "images/Snipaste_2023-10-07_16-55-25.png",
