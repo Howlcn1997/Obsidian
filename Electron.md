@@ -14,6 +14,17 @@
 - 更改`session.setPermissionCheckHandler(handler)`为允许 的`handler`第一个参数`webContents`为`null`。[第19903章](https://github.com/electron/electron/pull/19903)
 
 # 14.x
+## 堆栈升级
+
+- Chromium 93.0.4577.58.
+    - [New in 93](https://developer.chrome.com/blog/new-in-chrome-93/)
+    - [New in 92](https://www.chromestatus.com/features#milestone%3D92)
+- Node v14.17.0.
+    - [v14.17.0 release notes](https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V14.md#14.17.0)
+- V8
+    - [v9.3 blog post](https://v8.dev/blog/v8-release-93)
+    - [v9.2 blog post](https://v8.dev/blog/v8-release-92)
+
 ## 重大变化
 
 - 子窗口不再从其父窗口继承 BrowserWindow 构造选项。[#28550](https://github.com/electron/electron/pull/28550)
