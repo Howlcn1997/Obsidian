@@ -31,3 +31,7 @@
 - 已弃用的`worldSafeExecuteJavaScript`选项已从 中删除`webPreferences`。[#28456](https://github.com/electron/electron/pull/28456)
 - 从WebContents 事件中删除了已弃用的`additionalFeatures`属性。[#28548](https://github.com/electron/electron/pull/28548)`new-window``did-create-window`[](https://github.com/electron/electron/pull/28548)
 - 删除了已弃用的选项`app.allowRendererProcessReuse`和 BrowserWindow`affinity`选项。[#26874](https://github.com/electron/electron/pull/26874)
+# 15.x
+## 重大变化
+
+- `nativeWindowOpen: true`现在是默认值。[#28552](https://github.com/electron/electron/pull/28552)
