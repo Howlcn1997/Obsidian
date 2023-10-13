@@ -48,3 +48,10 @@
 ## 重大变化
 
 - `nativeWindowOpen: true`现在是默认值。[#28552](https://github.com/electron/electron/pull/28552)
+
+# 16.x
+
+## 重大变化
+
+- 该`crashReporter`API 现在由 Linux 上的 Crashpad 提供支持。[#30278](https://github.com/electron/electron/pull/30278)
+- 渲染器进程中使用`desktopCapturer.getSources`API 的做法已被弃用并将被删除。[30721](https://github.com/electron/electron/pull/30721)
