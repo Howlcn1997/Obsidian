@@ -76,3 +76,9 @@
 
 - 渲染器现在默认处于沙箱状态，除非指定`nodeIntegration: true`或。[#35125](https://github.com/electron/electron/pull/35125)`sandbox: false`[](https://github.com/electron/electron/pull/35125)
 - 使用 nan 构建本机模块时添加了保护措施。重建本机模块时，请使用 node-gyp >=8.4.0 和 electro-rebuild >=3.2.9。[#35160](https://github.com/electron/electron/pull/35160)
+
+# 21.x
+## 重大变化
+
+- 为外部缓冲区启用 V8 内存笼。有关更多详细信息，请参阅 https://www.electronjs.org/blog/v8-memory-cage。[#34724](https://github.com/electron/electron/pull/34724)
+- 进行了重构`webContents.printToPDF`以与 Chrome Devtools 实现保持一致。[#33654](https://github.com/electron/electron/pull/33654)
