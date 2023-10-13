@@ -80,5 +80,5 @@
 # 21.x
 ## 重大变化
 
-- 为外部缓冲区启用 V8 内存笼。有关更多详细信息，请参阅 https://www.electronjs.org/blog/v8-memory-cage。[#34724](https://github.com/electron/electron/pull/34724)
+- 为外部缓冲区启用 V8 内存笼。有关更多详细信息，请参阅 https://www.electronjs.org/blog/v8-memory-cage。[#34724](https://github.com/electron/electron/pull/34724)  V8dui
 - 进行了重构`webContents.printToPDF`以与 Chrome Devtools 实现保持一致。[#33654](https://github.com/electron/electron/pull/33654)
