@@ -69,3 +69,10 @@
 ## 重大变化
 
 - 删除了旧的`BrowserWindowProxy`基于`window.open`. 这也`nativeWindowOpen`从 中删除了该选项`webPreferences`。[#29405](https://github.com/electron/electron/pull/29405)
+
+# 20.x
+
+## 重大变化
+
+- 渲染器现在默认处于沙箱状态，除非指定`nodeIntegration: true`或。[#35125](https://github.com/electron/electron/pull/35125)`sandbox: false`[](https://github.com/electron/electron/pull/35125)
+- 使用 nan 构建本机模块时添加了保护措施。重建本机模块时，请使用 node-gyp >=8.4.0 和 electro-rebuild >=3.2.9。[#35160](https://github.com/electron/electron/pull/35160)
