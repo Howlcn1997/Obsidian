@@ -32,6 +32,11 @@
 - 从WebContents 事件中删除了已弃用的`additionalFeatures`属性。[#28548](https://github.com/electron/electron/pull/28548)`new-window``did-create-window`[](https://github.com/electron/electron/pull/28548)
 - 删除了已弃用的选项`app.allowRendererProcessReuse`和 BrowserWindow`affinity`选项。[#26874](https://github.com/electron/electron/pull/26874)
 # 15.x
+## 修复
+
+- 修复了以编程方式关闭可拖动无框架子窗口时潜在的崩溃。[#31027](https://github.com/electron/electron/pull/31027)
+- `electron`现在，在使用 x64 版本的 Node 时在 M1 MacBook 上安装该软件包将自动下载 Arm64 版本的 Electron，而不是 x64 版本 （开发者工具，性能分析g）。[#29953](https://github.com/electron/electron/pull/29953)
+
 ## 重大变化
 
 - `nativeWindowOpen: true`现在是默认值。[#28552](https://github.com/electron/electron/pull/28552)
