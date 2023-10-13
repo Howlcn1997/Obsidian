@@ -86,4 +86,8 @@
 
 - 修复了已弃用`gpu-process-crashed`/`renderer-process-crashed`事件被发出两次且参数不正确的问题。[#40119](https://github.com/electron/electron/pull/40119) （也在[24](https://github.com/electron/electron/pull/40110) , [25](https://github.com/electron/electron/pull/40113) , [26](https://github.com/electron/electron/pull/40112) , [27](https://github.com/electron/electron/pull/40111)）
 - 修复了在 Electron 中运行 Node.js 时 v8.serialize() 中的内存泄漏。[#37774](https://github.com/electron/electron/pull/37774) （也在[23](https://github.com/electron/electron/pull/37030)中）
-- `port.postMessage`修复了使用`MessagePortMain`某些无效参数调用可能导致崩溃的问题。[#](https://github.com/electron/electron/pull/37725) 37725 （也在[23、24](https://github.com/electron/electron/pull/37724) [）](https://github.com/electron/electron/pull/37726)
+## 重大变化
+
+- 添加了 WebContents`input-event`事件。
+    - 已弃用的 BrowserWindow`scroll-touch-*`事件。[#35531](https://github.com/electron/electron/pull/35531)
+- 已弃用的`new-window`事件已被删除。[#34526](https://github.com/electron/electron/pull/34526)
