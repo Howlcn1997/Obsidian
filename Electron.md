@@ -66,7 +66,7 @@
 # 21.x
 ## 重大变化
 
-- 为外部缓冲区启用 V8 内存笼。有关更多详细信息，请参阅 https://www.electronjs.org/blog/v8-memory-cage。[#34724](https://github.com/electron/electron/pull/34724)  V8堆大小减少40%，CPU、GC性能提升5% - 10%
+- 为外部缓冲区启用 V8 内存笼。有关更多详细信息，请参阅 https://www.electronjs.org/blog/v8-memory-cage。[#34724](https://github.com/electron/electron/pull/34724)  【V8堆大小减少40%，CPU、GC性能提升5% - 10%， 但会导致ffi-napi无法使用，因为ffi-napi还在使用v8栈内内存，且ffi-np】
 # 22.x
 ## 修复
 
