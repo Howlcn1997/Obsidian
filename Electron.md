@@ -1,10 +1,3 @@
-
-# ALL
-
-- 超多崩溃问题的修复
-- macos、windows各版本兼容xin
-
-
 # 12.x
 ## 重大变化
 
@@ -22,12 +15,6 @@
 
 # 14.x
 ## 堆栈升级
-
-- Chromium 93.0.4577.58.
-    - [New in 93](https://developer.chrome.com/blog/new-in-chrome-93/)
-    - [New in 92](https://www.chromestatus.com/features#milestone%3D92)
-- Node v14.17.0.
-    - [v14.17.0 release notes](https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V14.md#14.17.0)
 - V8
     - [v9.3 blog post](https://v8.dev/blog/v8-release-93)  JS的编译速度提升44%
     - [v9.2 blog post](https://v8.dev/blog/v8-release-92)
