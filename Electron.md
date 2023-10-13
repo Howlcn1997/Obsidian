@@ -64,3 +64,5 @@
 ## 重大变化
 
 - `desktopCapturer.getSources`现在仅在主进程中可用。[第30720章](https://github.com/electron/electron/pull/30720)
+
+# 18.x
