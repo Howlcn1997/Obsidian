@@ -1,3 +1,6 @@
+
+AL
+
 # 12.x
 ## 重大变化
 
@@ -35,7 +38,7 @@
 ## 修复
 
 - 修复了以编程方式关闭可拖动无框架子窗口时潜在的崩溃。[#31027](https://github.com/electron/electron/pull/31027)
-- `electron`现在，在使用 x64 版本的 Node 时在 M1 MacBook 上安装该软件包将自动下载 Arm64 版本的 Electron，而不是 x64 版本 （开发者工具，性能分析g）。[#29953](https://github.com/electron/electron/pull/29953)
+- `electron`现在，在使用 x64 版本的 Node 时在 M1 MacBook 上安装该软件包将自动下载 Arm64 版本的 Electron，而不是 x64 版本 （开发者工具，性能分析工具的修复）。[#29953](https://github.com/electron/electron/pull/29953)
 
 ## 重大变化
 
