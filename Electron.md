@@ -66,3 +66,6 @@
 - `desktopCapturer.getSources`现在仅在主进程中可用。[第30720章](https://github.com/electron/electron/pull/30720)
 
 # 18.x
+## 重大变化
+
+- 删除了旧的`BrowserWindowProxy`基于`window.open`. 这也`nativeWindowOpen`从 中删除了该选项`webPreferences`。[#29405](https://github.com/electron/electron/pull/29405)
