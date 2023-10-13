@@ -61,3 +61,6 @@
 ## 修复
 
 - 修复了在 macOS Big Sur 及更新版本上使用 child_process.spawn 和相关方法时的缓慢问题。[#](https://github.com/electron/electron/pull/33408) 33408 （也在[16、18](https://github.com/electron/electron/pull/33405) [）](https://github.com/electron/electron/pull/33407) 【目前renderer的解压缩任务是使用IPC转接给主进程执行】
+## 重大变化
+
+- `desktopCapturer.getSources`现在仅在主进程中可用。[第30720章](https://github.com/electron/electron/pull/30720)
