@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a165b603d20ea106",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electron.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1f1926aedc65373a",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
