@@ -20,12 +20,14 @@
             }
           },
           {
-            "id": "ca15bfff1eed4127",
+            "id": "1f1926aedc65373a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "差量更新.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -76,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electron.md",
+                "file": "差量更新.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Electron.md",
+                "file": "差量更新.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electron.md"
+                "file": "差量更新.md"
               }
             }
           }
@@ -158,12 +159,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ca15bfff1eed4127",
+  "active": "1f1926aedc65373a",
   "lastOpenFiles": [
+    "Electron.md",
+    "差量更新.md",
+    "未命名",
     "images/1696674106000ldkvqi.png",
     "images/1696674028000rujrwt.png",
     "().md",
-    "Electron.md",
     "images/Pasted image 20231007165821.png.md",
     "images/Pasted image 20231007165821.png",
     "images/Snipaste_2023-10-07_16-55-25.png",
