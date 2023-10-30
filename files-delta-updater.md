@@ -1,8 +1,11 @@
 
 # files-delta-updater
 
-## use
+## Install
 
 ```
 npm install files-delta-updater --save-dev
 ```
+
+## Use
+
