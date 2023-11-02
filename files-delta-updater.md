@@ -77,7 +77,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `reason` 
 	- `message`
 
-`reason`值的枚举：
+- `reason`值的枚举：
 	- `not-available--channels` 渠道检查不满足条件
 	- `not-available--version` 版本检查不满足条件
 	- `not-available--staging` 灰度更新检查不满足条件
@@ -102,9 +102,9 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `nextVersion`
 	- `nextVersionDir`
 
- `currentVersion` 当前版本号
- `nextVersion` 下一个版本号
- `nextVersionDir` 下一个版本所在目录
+ - `currentVersion` 当前版本号
+ - `nextVersion` 下一个版本号
+ - `nextVersionDir` 下一个版本所在目录
 ##### 事件：`usable`
 
 可用资源已下载至本地且已生成最新版本资源文件时触发；
@@ -114,9 +114,9 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `nextVersion`
 	- `nextVersionDir`
 
- `currentVersion` 当前版本号
- `nextVersion` 下一个版本号
- `nextVersionDir` 下一个版本所在目录
+ - `currentVersion` 当前版本号
+ - `nextVersion` 下一个版本号
+ - `nextVersionDir` 下一个版本所在目录
 
 ##### 事件：`error`
 
