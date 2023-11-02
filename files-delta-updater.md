@@ -57,9 +57,9 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 返回： `checkResult` 
 `checkResult` string 值的枚举：
 	- `not-available--channels`
-	- `usable`
 	- `not-available--version`
 	- `not-available--staging`
+	- `usable`
 	- `success`
 
 
@@ -123,7 +123,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 - `Error`
 
 
-
+### 示例
 
 
 
