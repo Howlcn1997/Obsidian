@@ -35,4 +35,4 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 `new DeltaUpdater(options)`
 - `options` DeltaUpdaterConfig
-	- `baseRootPath` string (必填) - 更新器基础目录。
+	- `baseRootPath` string (必填) - 更新器基础目录。当
