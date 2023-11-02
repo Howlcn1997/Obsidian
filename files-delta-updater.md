@@ -44,6 +44,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 方法：`getLatestVersionAfterSwitch()`
 
+返回： Promise实例
 
 ##### 方法：`checkUpdate(forceCheck)`
 
