@@ -42,5 +42,6 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 #### 实例事件
 
-使用`### `new DeltaUpdater(options)``
+使用`new DeltaUpdater`创建的对象具有以下事件：
+
 
