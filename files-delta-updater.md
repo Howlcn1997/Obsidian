@@ -33,8 +33,10 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ## 资源生成
 
+设`release/dist`为你的代码资源
+
 ```Node
-	
+	const { Build } = require('files-delta-updater');
 ```
 
 
