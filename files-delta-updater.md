@@ -48,12 +48,12 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 返回： `Promise<{ version: string; path: string; }>`
 
-`version` 本地可用的最新版本
-`path` 本地可用的最新版本所在目录
+- `version` 本地可用的最新版本
+- `path` 本地可用的最新版本所在目录
 
 ##### 方法：`checkUpdate(forceCheck)`
 
-参数：`forceCheck`
+参数：`forceCheck`<br>
 默认值`true`，检查步骤中的渠道检查不通过时则继续更新流程，否则反之。
 
 返回： 
@@ -71,7 +71,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 事件：`not-available`
 
-无可用更新时触发；
+无可用更新时触发；<br>
 返回：
 - `result`
 	- `reason` 
@@ -84,7 +84,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 事件：`download`
 
-资源正在下载时触发；
+资源正在下载时触发；<br>
 返回：
 - `result`
 	- `total` 
@@ -107,7 +107,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
  - `nextVersionDir` 下一个版本所在目录
 ##### 事件：`usable`
 
-可用资源已下载至本地且已生成最新版本资源文件时触发；
+可用资源已下载至本地且已生成最新版本资源文件时触发；<br>
 返回：
 - `result`
 	- `currentVersion` 
@@ -120,7 +120,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 事件：`error`
 
-更新器运行报错时触发；
+更新器运行报错时触发；<br>
 返回：
 - `Error`
 
