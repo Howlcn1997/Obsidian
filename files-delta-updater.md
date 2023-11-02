@@ -38,8 +38,8 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 ```Node
 	const { buildRelease, buildLocal } = require('files-delta-updater');
 
-	(() => {
-		buildRelease({
+	(async () => {
+		aw buildRelease({
 		input: "release/source",
 		output: "release/dist"
 		version: "1.0.1",
