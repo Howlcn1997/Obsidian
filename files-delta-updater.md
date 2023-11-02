@@ -56,9 +56,9 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 参数：`forceCheck`
 默认值`true`，检查步骤中的渠道检查不通过时则继续更新流程，否则反之。
 
-返回： `checkResult` 
-`checkResult` string 值的枚举：
--  `not-available--channels`
+返回： 
+- `checkResult` 枚举值
+	- `not-available--channels`
 	- `not-available--version`
 	- `not-available--staging`
 	- `usable`
@@ -90,8 +90,8 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `total` 
 	- `process`
 
- `total` 带下载资源总数
- `process` 下载进度
+ - `total` 带下载资源总数
+ - `process` 下载进度
 
 ##### 事件：`downloaded`
 
