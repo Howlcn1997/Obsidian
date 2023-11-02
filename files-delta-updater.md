@@ -95,7 +95,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 事件：`downloaded`
 
-资源下载完成时触发；
+资源下载完成时触发；<br>
 返回：
 - `result`
 	- `currentVersion` 
