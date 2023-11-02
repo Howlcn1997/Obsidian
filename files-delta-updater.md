@@ -15,10 +15,10 @@ npm install files-delta-updater --save-dev
 const { DeltaUpdater } = require('files-delta-updater');
 
 const deltaUpdater = new DeltaUpdater({
-	baseRootPath: '/The/Base/Source/Path', // Updated most basic resource files
-	updateRootPath: '/The/New/Source/Path', // The directory where the updated files are located
-	remoteRootUrl: '/The/Origin/Source/Url', // Remote resource address
-	channels: ["channel"]
+	baseRootPath: "/The/Base/Source/Path", // Updated most basic resource files
+	updateRootPath: "/The/New/Source/Path", // The directory where the updated files are located
+	remoteRootUrl: "/The/Origin/Source/Url", // Remote resource address
+	channels: ["version","",...,"channelN"], // 
 })
 ```
 
