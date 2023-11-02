@@ -1,7 +1,7 @@
 
 # files-delta-updater
 
-你可以使用`files-detla-updater`在仅仅使用静态资源服务器来实现资源的差量更新
+你可以使用`files-detla-updater`在仅仅使用静态资源服务器的条件下来实现资源的差量更新
 
 ## 安装
 
