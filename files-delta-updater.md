@@ -39,7 +39,8 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	const { buildRelease, buildLocal } = require('files-delta-updater');
 
 	buildRelease({
-		source: "release/dist",
+		input: "release/dist",
+		output: ""
 		version: "1.0.0",
 		
 	})
