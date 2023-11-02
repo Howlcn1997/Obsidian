@@ -17,7 +17,7 @@ const { DeltaUpdater } = require('files-delta-updater');
 const deltaUpdater = new DeltaUpdater({
 	baseRootPath: "C:\\Program Files\\MyApp\\dist",
 	updateRootPath: "C:\\Program Files\\MyApp_source\\dist",
-	remoteRootUrl: "/The/Origin/Source/Url", 
+	remoteRootUrl: "oss.template.com/", 
 	channels: ["version","win32","stable"],
 })
 
