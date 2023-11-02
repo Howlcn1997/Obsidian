@@ -15,13 +15,10 @@ npm install files-delta-updater --save-dev
 const { DeltaUpdater } = require('files-delta-updater');
 
 const deltaUpdater = new DeltaUpdater({
-	baseRootPath: "/The/Base/Source/Path", // Updated most basic resource files
-	updateRootPath: "/The/New/Source/Path", // The directory where the updated files are located
-	remoteRootUrl: "/The/Origin/Source/Url", // Remote resource address
-	channels: ["version","win32","stable"], // Configuration updated by channel
-	clearOldVersion: true, // Whether to clean up old version resource files
-	versionAvailable: (localVersion, remoteVersion) => localVersion !== remoteVersion, // Customize whether to enable upgrades based on version
-	requestInstanceCreator: function (axios) { return axios.create({ timeout: 6000 }) }, // The axios instance used by the custom updater to check for updates
+	baseRootPath: "/usr",
+	updateRootPath: "/The/New/Source/Path",
+	remoteRootUrl: "/The/Origin/Source/Url", 
+	channels: ["version","win32","stable"],
 })
 
 deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
