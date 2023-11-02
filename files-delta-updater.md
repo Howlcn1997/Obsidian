@@ -21,7 +21,7 @@ const deltaUpdater = new DeltaUpdater({
 	channels: ["version","win32","stable"], // Configuration updated by channel
 	clearOldVersion: true, // Whether to clean up old version resource files
 	versionAvailable: (localVersion, remoteVersion) => localVersion !== remoteVersion, // Customize whether to enable upgrades based on version
-	requestInstanceCreator: function (axios) { return  }
+	requestInstanceCreator: function (axios) { return axios.create({ timeout: 6000 }) }, // 
 })
 ```
 
