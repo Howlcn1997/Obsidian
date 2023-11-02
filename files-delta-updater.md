@@ -33,17 +33,19 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ## 资源生成
 
-设`release/dist`为你的代码资源
+设`release/source`为你的代码资源
 
 ```Node
 	const { buildRelease, buildLocal } = require('files-delta-updater');
 
+()
 	buildRelease({
-		input: "release/dist",
-		output: ""
-		version: "1.0.0",
-		
-	})
+		input: "release/source",
+		output: "release/dist"
+		version: "1.0.1",
+		stagingPercentage: 50,
+		channels: ["1.0.1","stable"]
+	});
 	
 
 ```
