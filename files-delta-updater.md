@@ -13,7 +13,7 @@ npm install files-delta-updater --save-dev
 
 ## 使用
 
-```
+```Node
 const { DeltaUpdater } = require('files-delta-updater');
 
 const deltaUpdater = new DeltaUpdater({
@@ -33,7 +33,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ## 资源生成
 
-```Node.
+```Node
 	
 ```
 
