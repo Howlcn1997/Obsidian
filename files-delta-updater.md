@@ -49,5 +49,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `reason` 
 	- `message`
 `reason`可能的值有：
-	- ``
+	- `not-available--channels` 渠道检查不满足条件
+	- `not-available--version` 版本检查不满足条件
+	- `not-available--staging` 灰度更新检查不满足条件
 
