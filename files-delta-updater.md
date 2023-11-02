@@ -40,12 +40,12 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `versionAvailable` function (可选) - 自定版本比较规则。默认 当本地版本与远程版本不一致时进行更新。
 	- `requestInstanceCreator` function (可选) - 自定义在获取更新文件时使用的axios实例
 
-##### 实例方法
+#### 实例方法
 
-###### 方法：`getLatestVersionAfterSwitch()`
+##### 方法：`getLatestVersionAfterSwitch()`
 
 
-###### 方法：`checkUpdate(forceCheck)`
+##### 方法：`checkUpdate(forceCheck)`
 
 
 #### 实例事件
@@ -53,6 +53,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 使用`new DeltaUpdater`创建的对象具有以下事件：
 
 ##### 事件：`not-available`
+
 返回：
 	- `reason` 
 	- `message`
@@ -60,4 +61,21 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `not-available--channels` 渠道检查不满足条件
 	- `not-available--version` 版本检查不满足条件
 	- `not-available--staging` 灰度更新检查不满足条件
+
+##### 事件：`download`
+
+
+##### 事件：`downloaded`
+
+
+##### 事件：`usable`
+
+
+##### 事件：``
+
+
+##### 事件：``
+
+
+
 
