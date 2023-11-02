@@ -37,4 +37,4 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `remoteRootUrl` string (必填) - 远程资源的URL。
 	- `channels` string[] (可选) - 更新渠道。分渠道更新资源。
 	- `clearOldVersion` boolean (可选) - 是否清理老版本资源。默认值为`true`，当更新器切换至最新版本后，将自动清理老版本资源文件。
-	- `versionAvailable` 
+	- `versionAvailable` function (可选) - 自定版本比较规则
