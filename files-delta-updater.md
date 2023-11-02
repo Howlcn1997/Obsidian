@@ -39,16 +39,14 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	const { buildRelease, buildLocal } = require('files-delta-updater');
 
 	(async () => {
-		aw buildRelease({
-		input: "release/source",
-		output: "release/dist"
-		version: "1.0.1",
-		stagingPercentage: 50,
-		channels: ["1.0.1","stable"]
-	})
-	})
-	;
-	
+		await buildRelease({
+			input: "release/source",
+			output: "release/dist"
+			version: "1.0.1",
+			stagingPercentage: 50,
+			channels: ["1.0.1","stable"]
+		})
+	})();
 
 ```
 
