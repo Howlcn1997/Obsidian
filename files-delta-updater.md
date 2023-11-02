@@ -20,7 +20,8 @@ const deltaUpdater = new DeltaUpdater({
 	remoteRootUrl: "/The/Origin/Source/Url", // Remote resource address
 	channels: ["version","win32","stable"], // Configuration updated by channel
 	clearOldVersion: true, // Whether to clean up old version resource files
-	versionAvailable: (localVersion, remoteVersion) => localVersion !== remoteVersion, // 
+	versionAvailable: (localVersion, remoteVersion) => localVersion !== remoteVersion, // Customize whether to enable upgrades based on version
+	requestInstanceCreator: function (axios) { return  }
 })
 ```
 
