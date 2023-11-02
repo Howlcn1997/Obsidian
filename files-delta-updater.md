@@ -30,7 +30,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 ```
 
 
-## `new DeltaUpdater(options)`
+### `new DeltaUpdater(options)`
 - `options` DeltaUpdaterConfig
 	- `baseRootPath` string (必填) - 更新器基础目录。当无已下载的更新资源时，则更新器使用该目录进行工作。
 	- `updateRootPath` string (必填) - 更新器版本管理目录。新生成的目录将保存在此目录下。
@@ -40,4 +40,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `versionAvailable` function (可选) - 自定版本比较规则。默认 当本地版本与远程版本不一致时进行更新。
 	- `requestInstanceCreator` function (可选) - 自定义在获取更新文件时使用的axios实例
 
-实例事件
+#### 实例事件
+
+使用`### `new DeltaUpdater(options)``
+
