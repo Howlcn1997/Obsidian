@@ -44,4 +44,6 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 使用`new DeltaUpdater`创建的对象具有以下事件：
 
+##### 事件：`not-available`
+返回：
 
