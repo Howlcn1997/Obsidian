@@ -40,6 +40,13 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `versionAvailable` function (可选) - 自定版本比较规则。默认 当本地版本与远程版本不一致时进行更新。
 	- `requestInstanceCreator` function (可选) - 自定义在获取更新文件时使用的axios实例
 
+##### 实例方法
+
+方法：`getLatestVersionAfterSwitch`
+
+
+方法：`checkUpdate`
+
 #### 实例事件
 
 使用`new DeltaUpdater`创建的对象具有以下事件：
