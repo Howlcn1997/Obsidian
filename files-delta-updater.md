@@ -31,6 +31,12 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 })
 ```
 
+## 资源生成
+
+```Node.
+	
+```
+
 
 ### `new DeltaUpdater(options)`
 - `options` DeltaUpdaterConfig
