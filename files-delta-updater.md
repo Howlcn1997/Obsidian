@@ -1,9 +1,9 @@
 
 # files-delta-updater
 
-你可以使用`files-detla-updater`
+你可以使用`files-detla-updater`在仅仅使用静态资源服务器来实现资源的差量更新
 
-## Installation
+## 安装
 
 You need node.js and npm.
 
@@ -11,7 +11,7 @@ You need node.js and npm.
 npm install files-delta-updater --save-dev
 ```
 
-## Usage
+## 使用
 
 ```
 const { DeltaUpdater } = require('files-delta-updater');
