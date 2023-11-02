@@ -66,12 +66,10 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 ##### 事件：`download`
 
 返回：
+- `result`
 	- `total` 
-	- `message`
-`reason`值的枚举：
-	- `not-available--channels` 渠道检查不满足条件
-	- `not-available--version` 版本检查不满足条件
-	- `not-available--staging` 灰度更新检查不满足条件
+	- `process`
+ `total` 带下载
 
 
 ##### 事件：`downloaded`
