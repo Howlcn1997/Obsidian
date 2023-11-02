@@ -46,5 +46,5 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 事件：`not-available`
 返回：
-	- 
+	- `reason` 
 
