@@ -54,11 +54,11 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 事件：`not-available`
 
+无可用更新时触发；
 返回：
 - `result`
 	- `reason` 
 	- `message`
-无可用更新时触发；
 
 `reason`值的枚举：
 	- `not-available--channels` 渠道检查不满足条件
@@ -67,35 +67,35 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 事件：`download`
 
+资源正在下载时触发；
 返回：
 - `result`
 	- `total` 
 	- `process`
-资源正在下载时触发；
 
  `total` 带下载资源总数
  `process` 下载进度
 
 ##### 事件：`downloaded`
 
+资源下载完成时触发；
 返回：
 - `result`
 	- `currentVersion` 
 	- `nextVersion`
 	- `nextVersionDir`
-资源下载完成时触发；
 
  `currentVersion` 当前版本号
  `nextVersion` 下一个版本号
  `nextVersionDir` 下一个版本所在目录
 ##### 事件：`usable`
 
+可用资源已下载至本地且已生成最新版本资源文件时触发；
 返回：
 - `result`
 	- `currentVersion` 
 	- `nextVersion`
 	- `nextVersionDir`
-有可用资源且已下载至本地时触发；
 
  `currentVersion` 当前版本号
  `nextVersion` 下一个版本号
@@ -103,9 +103,9 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 事件：`error`
 
+更新器运行报错时触发；
 返回：
 - `Error`
-更新器运行报错时触发
 
 
 
