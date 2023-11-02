@@ -55,7 +55,12 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 默认值`true`，检查步骤中的渠道检查不通过时则继续更新流程，否则反之。
 
 返回： `checkResult` 
-`checkResult` string
+`checkResult` string 值的枚举：
+	- `not-available--channels`
+	- `usable`
+	- `not-available--version`
+	- `not-available--staging`
+	- `success`
 
 
 #### 实例事件
