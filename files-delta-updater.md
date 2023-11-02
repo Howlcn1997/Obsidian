@@ -28,6 +28,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	console.log(path); // The directory where the latest version of the file is located
 	console.log(version); // the latest version
 
+	deltaUpdater.checkUpdate(); // Start checking for updates
 })
 ```
 
