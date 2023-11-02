@@ -39,13 +39,13 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	const { buildRelease, buildLocal } = require('files-delta-updater');
 
 	(async () => {
-		// 构建 需要发送
+		// 构建待发版至静态资源服务器的资源
 		buildRelease({
 			input: "release/source",
 			output: "release/dist"
 			version: "1.0.1",
 			stagingPercentage: 50,
-			channels: ["1.0.1","stable"]
+			channels: ["1.0.1", "stable"]
 		})
 	})();
 
