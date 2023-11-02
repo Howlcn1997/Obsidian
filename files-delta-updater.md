@@ -37,7 +37,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ```Node
 	// 构建待发版至静态资源服务器的资源 对应 new DeltaUpdater中的 remoteRootUrl 字段
-	const { buildRelease, buildLocal } = require('files-delta-updater');
+	const { buildRelease } = require('files-delta-updater');
 
 	(async () => {
 		
@@ -54,15 +54,14 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ```Node
 	// 构建本地资源文件 对应 new DeltaUpdater中的 baseRootPath 字段
-	const { buildRelease, buildLocal } = require('files-delta-updater');
+	const { buildLocal } = require('files-delta-updater');
 
 	(async () => {
 		
-		buildRelease({
+		buildLocal({
 			input: "release/source",
-			output: "release/release"
+			output: "release/local"
 			version: "1.0.1",
-			stagingPercentage: 50,
 			channels: ["1.0.1", "stable"]
 		})
 	})();
