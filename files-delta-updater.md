@@ -33,4 +33,5 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 ```
 
 
-`new`
+`new DeltaUpdater(options)`
+- `options` 
