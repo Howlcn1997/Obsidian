@@ -79,10 +79,19 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `currentVersion` 
 	- `nextVersion`
 	- `nextVersionDir`
- `currentVersion` 当前版本
- `nextVersion` 下一个版本
- `nextVersionDir`下一个版本
+ `currentVersion` 当前版本号
+ `nextVersion` 下一个版本号
+ `nextVersionDir` 下一个版本所在目录
 ##### 事件：`usable`
+
+返回：
+- `result`
+	- `currentVersion` 
+	- `nextVersion`
+	- `nextVersionDir`
+ `currentVersion` 当前版本号
+ `nextVersion` 下一个版本号
+ `nextVersionDir` 下一个版本所在目录
 
 
 ##### 事件：`error`
