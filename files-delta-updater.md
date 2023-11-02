@@ -123,8 +123,4 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 - `Error`
 
 
-### 示例
-
-
-
 
