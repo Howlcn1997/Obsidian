@@ -93,8 +93,12 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
  `nextVersion` 下一个版本号
  `nextVersionDir` 下一个版本所在目录
 
-
 ##### 事件：`error`
+
+返回：
+- `Error`
+
+
 
 
 
