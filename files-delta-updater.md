@@ -23,6 +23,10 @@ const deltaUpdater = new DeltaUpdater({
 	versionAvailable: (localVersion, remoteVersion) => localVersion !== remoteVersion, // Customize whether to enable upgrades based on version
 	requestInstanceCreator: function (axios) { return axios.create({ timeout: 6000 }) }, // The axios instance used by the custom updater to check for updates
 })
+
+deltaUpdater.getLatestVersionAfterSwitch().then(() => {
+	
+})
 ```
 
 
