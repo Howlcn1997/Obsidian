@@ -19,7 +19,8 @@ const deltaUpdater = new DeltaUpdater({
 	updateRootPath: "/The/New/Source/Path", // The directory where the updated files are located
 	remoteRootUrl: "/The/Origin/Source/Url", // Remote resource address
 	channels: ["version","win32","stable"], // Configuration updated by channel
-	clearOldVersion: true, // 
+	clearOldVersion: true, // Whether to clean up old version resource files
+	versionAvailable: (localVersion, remoteVersion) => localVersion !== remoteVersion, // 
 })
 ```
 
