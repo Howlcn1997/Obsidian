@@ -71,7 +71,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 ##### 事件：`usable`
 
 
-##### 事件：``
+##### 事件：`error`
 
 
 ##### 事件：``
