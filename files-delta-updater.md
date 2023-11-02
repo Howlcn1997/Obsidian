@@ -15,10 +15,10 @@ npm install files-delta-updater --save-dev
 const { DeltaUpdater } = require('files-delta-updater');
 
 const deltaUpdater = new DeltaUpdater({
-	baseRootPath: "C:\\Program Files\\MyApp\\dist",
-	updateRootPath: "C:\\Program Files\\MyApp_source\\dist",
-	remoteRootUrl: "oss.template.com/", 
-	channels: ["version","win32","stable"],
+	baseRootPath: "C:\\Program Files\\myapp\\dist",
+	updateRootPath: "C:\\Program Files\\myapp_source\\dist",
+	remoteRootUrl: "https://oss.template.com/myapp", 
+	channels: ["1.0.0","stable"]
 })
 
 deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
