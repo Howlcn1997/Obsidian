@@ -35,4 +35,4 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `baseRootPath` string (必填) - 更新器基础目录。当无已下载的更新资源时，则更新器使用该目录进行工作。
 	- `updateRootPath` string (必填) - 更新器版本管理目录。新生成的目录将保存在此目录下。
 	- `remoteRootUrl` string (必填) - 更新器远程资源所在的URL。
-	- 
+	- `channels` Array<string> (可选) - 
