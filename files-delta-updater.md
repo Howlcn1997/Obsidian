@@ -95,6 +95,8 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `currentVersion` 
 	- `nextVersion`
 	- `nextVersionDir`
+有可用资源且已下载至本地时触发；
+
  `currentVersion` 当前版本号
  `nextVersion` 下一个版本号
  `nextVersionDir` 下一个版本所在目录
