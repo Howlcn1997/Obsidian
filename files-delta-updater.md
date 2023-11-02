@@ -39,7 +39,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	const { buildRelease, buildLocal } = require('files-delta-updater');
 
 	(async () => {
-		// 构建
+		// 构建 需要发送
 		buildRelease({
 			input: "release/source",
 			output: "release/dist"
