@@ -42,10 +42,11 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ##### 实例方法
 
-方法：`getLatestVersionAfterSwitch`
+###### 方法：`getLatestVersionAfterSwitch()`
 
 
-方法：`checkUpdate`
+###### 方法：`checkUpdate(forceCheck)`
+
 
 #### 实例事件
 
