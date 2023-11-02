@@ -15,7 +15,7 @@ npm install files-delta-updater --save-dev
 const { DeltaUpdater } = require('files-delta-updater');
 
 const deltaUpdater = new DeltaUpdater({
-	baseRootPath: '/The/Base/Source/Path',
+	baseRootPath: '/The/Base/Source/Path', // 
 })
 ```
 
