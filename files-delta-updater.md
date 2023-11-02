@@ -24,8 +24,8 @@ const deltaUpdater = new DeltaUpdater({
 	requestInstanceCreator: function (axios) { return axios.create({ timeout: 6000 }) }, // The axios instance used by the custom updater to check for updates
 })
 
-deltaUpdater.getLatestVersionAfterSwitch().then(() => {
-	
+deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
+	console.log("Latest ")
 })
 ```
 
