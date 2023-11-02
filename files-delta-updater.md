@@ -57,12 +57,20 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 返回：
 	- `reason` 
 	- `message`
-`reason`可能的值有：
+`reason`值的枚举：
 	- `not-available--channels` 渠道检查不满足条件
 	- `not-available--version` 版本检查不满足条件
 	- `not-available--staging` 灰度更新检查不满足条件
 
 ##### 事件：`download`
+
+返回：
+	- `reason` 
+	- `message`
+`reason`值的枚举：
+	- `not-available--channels` 渠道检查不满足条件
+	- `not-available--version` 版本检查不满足条件
+	- `not-available--staging` 灰度更新检查不满足条件
 
 
 ##### 事件：`downloaded`
@@ -74,7 +82,6 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 ##### 事件：`error`
 
 
-##### 事件：``
 
 
 
