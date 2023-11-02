@@ -37,6 +37,9 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ```Node
 	const { buildRelease, buildLocal } = require('files-delta-updater');
+
+	
+
 ```
 
 
