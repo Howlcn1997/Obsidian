@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "files-delta-updater.md",
+                "file": "Electron.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b1c2881b86e5758",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "差量更新原理.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files-delta-updater.md",
+                "file": "差量更新原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "files-delta-updater.md",
+                "file": "差量更新原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files-delta-updater.md"
+                "file": "差量更新原理.md"
               }
             }
           }
@@ -146,9 +159,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1f1926aedc65373a",
+  "active": "3b1c2881b86e5758",
   "lastOpenFiles": [
     "Electron.md",
+    "差量更新原理.md",
     "files-delta-updater.md",
     "未命名",
     "images/1696674106000ldkvqi.png",
