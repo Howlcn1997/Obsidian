@@ -52,7 +52,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 ##### 方法：`checkUpdate(forceCheck)`
 
 参数：`forceCheck`
-默认值`true`，当
+默认值`true`，检查步骤中的渠道检查不通过时则继续更新流程
 
 返回： `Promise<{ version: string; path: string; }>`
 
