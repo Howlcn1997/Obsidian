@@ -58,6 +58,8 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 - `result`
 	- `reason` 
 	- `message`
+无可用更新时触发
+
 `reason`值的枚举：
 	- `not-available--channels` 渠道检查不满足条件
 	- `not-available--version` 版本检查不满足条件
@@ -97,7 +99,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 返回：
 - `Error`
-
+更新器运行报错时触发
 
 
 
