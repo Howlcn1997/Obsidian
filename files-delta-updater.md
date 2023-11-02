@@ -1,7 +1,7 @@
 
 # files-delta-updater
 
-## 安装
+## Installation
 
 ```
 npm install files-delta-updater --save-dev
