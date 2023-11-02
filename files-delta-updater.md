@@ -1,6 +1,8 @@
 
 # files-delta-updater
 
+你可以使用`files-detla-updater`
+
 ## Installation
 
 You need node.js and npm.
