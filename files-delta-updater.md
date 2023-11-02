@@ -49,6 +49,8 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 `version` 本地可用的最新版本
 `path` 本地可用的最新版本所在目录
 
+此方法会检查
+
 ##### 方法：`checkUpdate(forceCheck)`
 
 参数：`forceCheck`
