@@ -25,7 +25,8 @@ const deltaUpdater = new DeltaUpdater({
 })
 
 deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
-	console.log("Latest ")
+	console.log(path); // The directory where the latest version of the file is located
+	console.log(version); // 
 })
 ```
 
