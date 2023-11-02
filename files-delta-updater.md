@@ -38,14 +38,16 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 ```Node
 	const { buildRelease, buildLocal } = require('files-delta-updater');
 
-()
-	buildRelease({
+	(() => {
+		buildRelease({
 		input: "release/source",
 		output: "release/dist"
 		version: "1.0.1",
 		stagingPercentage: 50,
 		channels: ["1.0.1","stable"]
-	});
+	})
+	})
+	;
 	
 
 ```
