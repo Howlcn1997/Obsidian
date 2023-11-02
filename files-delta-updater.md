@@ -36,4 +36,4 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `updateRootPath` string (必填) - 更新器版本管理目录。新生成的目录将保存在此目录下。
 	- `remoteRootUrl` string (必填) - 远程资源的URL。
 	- `channels` string[] (可选) - 更新渠道。分渠道更新资源。
-	- `clearOldVersion` boolean (可选) - 
+	- `clearOldVersion` boolean (可选) - 是否清理老版本资源。默认值为`true`，当更新器qie'huan'z
