@@ -79,8 +79,9 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 	- `currentVersion` 
 	- `nextVersion`
 	- `nextVersionDir`
- `total` 带下载资源总数
- `process` 下载进度
+ `currentVersion` 当前版本
+ `nextVersion` 下一个版本
+ `nextVersionDir`下一个版本
 ##### 事件：`usable`
 
 
