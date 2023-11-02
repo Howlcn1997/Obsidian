@@ -36,7 +36,7 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 设`release/dist`为你的代码资源
 
 ```Node
-	const { Build } = require('files-delta-updater');
+	const { buildRelease, buildLocal } = require('files-delta-updater');
 ```
 
 
