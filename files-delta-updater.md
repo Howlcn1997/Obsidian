@@ -36,13 +36,14 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 设`release/source`为你的代码资源
 
 ```Node
+	// 构建待发版至静态资源服务器的资源
 	const { buildRelease, buildLocal } = require('files-delta-updater');
 
 	(async () => {
-		// 构建待发版至静态资源服务器的资源
+		
 		buildRelease({
 			input: "release/source",
-			output: "release/dist"
+			output: "release/release"
 			version: "1.0.1",
 			stagingPercentage: 50,
 			channels: ["1.0.1", "stable"]
@@ -51,7 +52,21 @@ deltaUpdater.getLatestVersionAfterSwitch().then(({path, version}) => {
 
 ```
 
+```Node
+	// 构建base
+	const { buildRelease, buildLocal } = require('files-delta-updater');
 
+	(async () => {
+		
+		buildRelease({
+			input: "release/source",
+			output: "release/release"
+			version: "1.0.1",
+			stagingPercentage: 50,
+			channels: ["1.0.1", "stable"]
+		})
+	})();
+```
 ### `new DeltaUpdater(options)`
 - `options` DeltaUpdaterConfig
 	- `baseRootPath` string (必填) - 更新器基础目录。当无已下载的更新资源时，则更新器使用该目录进行工作。
