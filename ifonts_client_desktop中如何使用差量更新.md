@@ -7,7 +7,7 @@
 1. 修改 更新范围 代码
 2. 执行`npm run build -- --new`
 3. 确认本次差量更新的发布渠道
-	1. 
+	- `delta-updater.json`中`channels`标识渠道，
 
 
 # 2、构建
