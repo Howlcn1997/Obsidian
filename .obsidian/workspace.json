@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bcda63f4b1a4ee36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ifonts_client_desktop中如何使用差量更新.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files-delta-updater.md",
+                "file": "ifonts_client_desktop中如何使用差量更新.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "files-delta-updater.md",
+                "file": "ifonts_client_desktop中如何使用差量更新.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files-delta-updater.md"
+                "file": "ifonts_client_desktop中如何使用差量更新.md"
               }
             }
           }
@@ -159,12 +171,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3b1c2881b86e5758",
+  "active": "bcda63f4b1a4ee36",
   "lastOpenFiles": [
-    "Electron.md",
     "files-delta-updater.md",
-    "差量更新原理.md",
+    "ifonts_client_desktop中如何使用差量更新.md",
     "未命名",
+    "Electron.md",
+    "差量更新原理.md",
     "images/1696674106000ldkvqi.png",
     "images/1696674028000rujrwt.png",
     "().md",
