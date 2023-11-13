@@ -4,8 +4,9 @@
 - `src/main`
 - `src/index.js`
 # 流程
-- 修改 更新范围 代码
-- 
+1. 修改 更新范围 代码
+2. 执行`npm run build -- --new`
+3. 
 
 
 # 2、构建
