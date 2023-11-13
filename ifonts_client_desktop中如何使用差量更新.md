@@ -14,7 +14,7 @@
 	- `delta-updater.json`中`channels`字段用来标识发布渠道；`%CLIENT_VERSION%`表示当前客户端版本；`%CURRENT_OS%`表示当前平台系统；`stable`为稳定版本，该字段可以用来做`alpha`或`beta`更新
 4. 确认：确认灰度发布比例,`stagingPercentage`Int 用于标识灰度发布比例，选值范围为`[0,100]`
 5. 发布：执行`npm run delta:release`，执行过程中会展示待发布信息和线上信息，请确认信息都正确且 __待发布版本号大于线上版本号__
-6. 归档：
+6. 归档：每一个差量更新版本发布结束，请立刻以`delta-{主进程版本}-{差量更新版本}`为格式，新建`git tag`并推送到远程仓库，
 
 
 # 2、构建
