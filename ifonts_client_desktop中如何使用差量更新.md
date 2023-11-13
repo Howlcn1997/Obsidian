@@ -4,7 +4,8 @@
 - `src/main`
 - `src/index.js`
 
-差量版本号
+差量版本号说明：
+	形如`[id]:[YYYYMMDD]`，例如`0.20231109`
 # 流程
 1. 开发：修改 更新范围 代码
 2. 构建：执行`npm run build -- --new`
