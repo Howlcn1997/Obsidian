@@ -11,24 +11,15 @@
             "id": "91eda920b2331ed7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "cbfda1809f2bea47",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "关于客户端2.5.x版本在部分Inter芯片无法工作的帮助文档.md",
+                "file": "ifonts_client_desktop中如何使用差量更新.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "关于客户端2.5.x版本在部分Inter芯片无法工作的帮助文档.md",
+                "file": "ifonts_client_desktop中如何使用差量更新.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "关于客户端2.5.x版本在部分Inter芯片无法工作的帮助文档.md",
+                "file": "ifonts_client_desktop中如何使用差量更新.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "关于客户端2.5.x版本在部分Inter芯片无法工作的帮助文档.md"
+                "file": "ifonts_client_desktop中如何使用差量更新.md"
               }
             }
           }
@@ -155,13 +146,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cbfda1809f2bea47",
+  "active": "91eda920b2331ed7",
   "lastOpenFiles": [
+    "files-delta-updater.md",
+    "ifonts_client_desktop中如何使用差量更新.md",
     "关于客户端2.5.x版本在部分Inter芯片无法工作的帮助文档.md",
     "关于客户端2.5.x版本在部分Inter芯片无法工作的帮助文档",
     "Electron.md",
-    "files-delta-updater.md",
-    "ifonts_client_desktop中如何使用差量更新.md",
     "差量更新原理.md",
     "images/1696674106000ldkvqi.png",
     "images/1696674028000rujrwt.png",
